@@ -1,0 +1,14 @@
+<view class="fb">
+   <view class="cont-input border">
+     <input class="fb_input" bindinput="phoneInput" bindblur="bindblur"maxlength="-1"placeholder="请输入您的手机号码"/>
+   </view>
+   <view class="cont-input border">
+     <input class="fb_input" bindinput="emilInput" bindblur="bindblur"maxlength="-1"placeholder="请输入您的邮箱"/>
+   </view>
+   <view class="detail-input border">
+     <input class="fb_input" bindinput="contentInput" bindblur="bindblur"maxlength="-1"placeholder="请输入反馈的问题"/>
+   </view>
+   <view class="weui-btn-area">
+     <button class="weui-btn btn" type="primary" bindtap="showTopTips">提交</button>
+   </view>  
+</view>

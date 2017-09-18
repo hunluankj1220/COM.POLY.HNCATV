@@ -1,0 +1,16 @@
+<view class="">
+   <block >
+    <image wx:if="{{src == ''}}" class="images" src="../../../assets/images/error_img_rec.png"></image> 
+    <image wx:else="{{src}}" class="images" src="{{src}}" background-size="cover"></image>
+  </block>
+</view>
+<view style="height:5px;color:#555555;border-bottom:1px  solid #c3c3c3;"></view>
+<view class="page_a">
+  <view class="text-all border-button" style="line-height:50px;align-items: center;">电视卡拉ok1元{{desc}}</view>
+  <view class="text-all" style="margin:15px;">内容{{content}}</view>
+  <view class="text-all-three border-button" style="line-height:30px;margin:15px;">￥ 4元/月{{money}}</view>
+  <view class="text-all-three" style="margin:15px;">改产品属于优惠活动{{desc}}</view>
+  <view class="weui-btn-area" >
+    <button class="weui-btn btn" type="primary" bindtap="orderTap">订  购</button>
+  </view>
+</view>

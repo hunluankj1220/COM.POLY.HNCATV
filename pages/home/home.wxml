@@ -1,0 +1,26 @@
+<import src="../homeb/gridview.wxml"/>
+
+<view class="swiper_box">
+   <swiper class="swiper_box" indicator-dots="{{ indicatorDots }}" autoplay="{{ autoplay }}" current="{{ current }}" interval="{{ interval }}" duration="{{ duration }}" circular="{{ circular }}" bindchange="swiperchange">
+    <block wx:for="{{ images }}" wx:key="">
+        <swiper-item>
+            <image src="{{ item}}" class="slide-image"/>
+        </swiper-item>
+    </block>
+</swiper>
+</view>
+<view class="weui-search-bar">
+    <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+            <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+            <input type="text" class="weui-search-bar__input" placeholder="搜索"/>
+        </view>
+        <label class="weui-search-bar__label" bindtap="search">
+            <icon class="weui-icon-search" type="search" size="14"></icon>
+            <view class="weui-search-bar__text">搜索</view>
+        </label>
+    </view>
+</view>
+<template is="gridview" data="{{routes}}"/>
+<view style="padding-left:10px;">超值推荐</view>
+<view class="button-pg"><image src="{{image}}" class="button-image"/></view>

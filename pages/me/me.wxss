@@ -1,0 +1,43 @@
+.me-page{
+  color: #efeff2;
+  height: 10px;
+}
+.page_heard{
+  width: 100%;
+  height: 90px;
+  background-image:  url("../../assets/images/ic_mine_login_bg.png");
+}
+.hear-right__title{
+  font-size: 15px;
+  color: #1C8DBD;
+}
+.hear-box__desc{
+    margin-top: 2px;
+    font-size: 12px;
+    width: 200px;
+    color: #333333;
+}
+.hear-image{
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  border: 0 solid #ff0000;
+  border-radius: 100rpx;
+  background-color: #f10b2e;
+
+}
+.hear_right-imge{
+   width: 20px;
+   height: 20px;
+}
+
+.hear-right__ctn{
+   flex-shrink: 150;
+   width: 100%;
+}
+.me-pd{
+  margin-top: 20px;
+}
+.me-text{
+  color: #333333
+}

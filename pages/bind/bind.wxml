@@ -1,0 +1,28 @@
+<view class="page">
+ <view class="weui-cell weui-cell_input page-bg border-button page-top">
+  <view class="weui-cell__hd">
+    <image class="weui-label page-image" src="../../assets/images/icon_ca.png"></image>
+  </view>
+  <view class="weui-cell__bd">
+    <input class="weui-input" bindinput="cardInput" placeholder="智能卡/宽带账号"/>
+   </view>
+  </view>
+</view>
+<view class="page">
+ <view class="weui-cell weui-cell_input page-bg border-button">
+  <view class="weui-cell__hd">
+    <image class="weui-label page-image" src="../../assets/images/ic_common_edit_password_bg.png"></image>
+  </view>
+  <view class="weui-cell__bd">
+    <input class="weui-input" bindinput="cardPasswordInput" placeholder="服务密码"/>
+   </view>
+  </view>
+</view>
+<view class="page-zhu">注:初始服务密码为开户时身份证号码后6位(X用数字0代替)或123456.如有疑问可拨打96531或当地营业厅咨询。</view>
+<view class="weui-btn-area">
+   <button class="weui-btn btn" type="primary" bindtap="showTopTips">确定</button>
+</view>
+<view class="page-zhu">如有疑问请联系客服：96531。</view>
+<view class="page-buttom-image">
+  <image src="../../assets/images/card.png"></image>
+</view>

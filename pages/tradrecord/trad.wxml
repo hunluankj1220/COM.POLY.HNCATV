@@ -1,0 +1,18 @@
+<view class="ba_page">
+  <view class="page_pd" wx:for="{{trads}}" wx:key="">
+    <view class="hear-box__ctn" >
+      <view class="hear-box">
+        <view class="page_top-left">{{item.name}}</view>
+        <view class="hear-box-right">
+          <view class="page_top-right">{{item.money}}</view>
+        </view>
+      </view>
+      <view class="hear-box">
+        <view class="page_button-left">{{item.types}}</view>
+        <view class="hear-box-right">
+          <view class="page_button-right">{{item.time}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

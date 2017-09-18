@@ -1,0 +1,22 @@
+.page_button-right{
+  font-size: 13px;
+  color: #888888;
+}
+.page_button-left{
+    font-size: 13px;
+    width: 90%;
+    color: #888888;
+}
+.page_pd{
+  line-height: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  border-color: rgb(105, 105, 105);
+  background-color: rgb(240, 240, 240);
+}
+.ba_page{
+  height: 100%;
+  width: 100%;
+}

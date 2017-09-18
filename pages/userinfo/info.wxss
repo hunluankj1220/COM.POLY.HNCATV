@@ -1,0 +1,25 @@
+.page{
+  line-height: 50px;
+}
+.hear-box-right{
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.page_top-right{
+  font-size: 13px;
+  color: #ff5800;
+  text-align: right;
+  margin-right: 15px;
+}
+.page-buttom{
+  line-height: 25px;
+}
+.margin-right{
+  margin-right: 15px;
+  text-align: right;
+}
+.margin-left{
+  margin-left: 10px;
+  align-items: center;
+}

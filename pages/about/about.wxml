@@ -1,0 +1,10 @@
+<view class="page">
+  <image class="image" src="../../assets/images/ic_logo.png"></image>
+  <view class="text-all page-text">湖南有线电视</view>
+</view>
+<view class="weui-footer">
+  <view class="weui-footer__links">
+    <navigator url="" class="weui-footer__link">底部链接</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2008-2017 weui.io</view>
+</view>

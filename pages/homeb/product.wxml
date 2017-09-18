@@ -1,0 +1,12 @@
+<template name="product"> 
+ <view class="page__bd">
+        <view class="weui-grids" >
+            <block wx:for="{{routes}}" wx:key="*this">
+                <view bindtap="showTap" id="{{item.text}}" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="{{item.icon}}" />
+                    <view class="weui-grid__label">{{item.text}}</view>
+                </view>
+            </block>
+        </view>
+</view>  
+</template>

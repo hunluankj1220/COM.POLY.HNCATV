@@ -1,0 +1,12 @@
+<view class="ba_page">
+ <view class="page_pd" wx:for="{{lists}}" wx:key="">
+  <view class="text-all border-button" >姓名: {{item.name}}</view>
+  <view class="hear-box__desc border-button text-all">智能卡: {{item.card}}</view>
+  <view class="hear-box">
+    <view class="hear-box__desc text-all">余额:</view>
+       <view class="hear-box-right">
+         <view class="hear-right__title color-text text-all">{{item.money}}</view>
+       </view>
+  </view>
+  </view>
+</view>

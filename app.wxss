@@ -1,0 +1,128 @@
+/**app.wxss**/
+/**
+ * 全局样式表
+ * 使用@import语句可以导入外联样式表，@import后跟需要导入的外联样式表的相对路径，用;表示语句结束
+ * 如果需要增加额外的WXSS样式表, 直接import即可, 但需注意引用顺序
+ */
+
+
+
+@import 'assets/styles/weui.wxss';
+@import 'assets/styles/prompt.wxss';
+@import 'assets/styles/skyvow.wxss';
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.personal_image{
+    z-index: 100;
+    position: absolute;
+    right:2.5%;
+    width: 34rpx;
+    height: 20rpx;
+    margin:20rpx 10rpx 20rpx 0;
+    transition: All 0.4s ease;  
+    -webkit-transition: All 0.4s ease;
+}
+.page-top{
+   margin-top: 10px;
+}
+.page-bg{
+  background-color: rgb(240, 240, 240);
+}
+.page-image{
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+  align-items: center;
+  margin-right: 10px;
+}
+.hear-box{
+    display: flex;
+    margin-left: 10px;
+    width: 100%;
+    align-items: center;
+}
+.hear-box-right{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    width: 30%;
+}
+.hear-box__ctn{
+    flex-shrink: 100;
+}
+.border-button{
+  border-bottom:1px  solid #c3c3c3;
+}
+.hear-box__title{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.page_top-right{
+  font-size: 13px;
+  color: #ff5800;
+}
+.page_top-left{
+    font-size: 13px;
+    width: 90%;
+    color: #000000;
+}
+.page_button-right{
+  font-size: 13px;
+  color: #888888;
+}
+.page_button-left{
+    font-size: 13px;
+    width: 90%;
+    color: #888888;
+}
+.page_pd{
+  line-height: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  border: 1px solid #c3c3c3;
+  border-color: rgb(105, 105, 105);
+  background-color: rgb(240, 240, 240);
+}
+.ba_page{
+  height: 100%;
+  width: 100%;
+}
+.text-all{
+  color:#000000;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.text-all-one{
+  font-size: 13px;color: #888888;
+}
+.text-all-two{
+  color:#000000;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.text-all-three{
+  font-size: 13px;color: #ff5800;
+}
+
+.page-pg-top{
+  height: 8px;
+  background-color: rgb(240, 240, 240);
+}
+.text_line{
+/*超出一行文字自动隐藏*/
+overflow:hidden;
+/*文字隐藏后添加省略号*/
+text-overflow:ellipsis;
+/*强制不换行*/
+white-space:nowrap;
+}

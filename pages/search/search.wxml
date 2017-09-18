@@ -1,0 +1,42 @@
+<view class="">
+  <view class="weui-btn-area" class="phone_one" style="line-height:30px;">
+    <picker  bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="phone_personal">
+         智能卡：{{array[index]}}
+        <image src="../../assets/images/down_to.png"class="personal_image"style="width:10px;height:10px;"></image>
+      </view>
+    </picker>
+  </view>
+</view>
+<view class="page__bd">
+        <view class="weui-search-bar">
+            <view class="weui-search-bar__form">
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+                    <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+                        <icon type="clear" size="14"></icon>
+                    </view>
+                </view>
+                <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+                    <icon class="weui-icon-search" type="search" size="14"></icon>
+                    <view class="weui-search-bar__text">搜索</view>
+                </label>
+            </view>
+            <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+        </view>
+  <view class="weui-cells weui-cells_after-title page-button" wx:for="{{products}}" bindtap="detail">
+     <navigator url="" class="hear-box"  hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+           <image src="{{item.icon}}" style="margin-right: 5px;width:50px; height: 40px;"></image>
+        </view>
+        <view class="hear-box-right">
+          <view class="hear-box__ctn">
+            <view class="weui-cell__bd">{{item.text}}</view>
+            <view class="weui-cell__bd text-color">{{item.money}}</view>
+          </view>
+         </view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"style="margin-left:180px;"></view>
+      </navigator>
+   </view>
+ </view>

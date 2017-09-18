@@ -1,0 +1,11 @@
+.color-text{
+  color: #ff4500
+}
+.hear-box__desc{
+    margin-top: 2px;
+    font-size: 12px;
+    color: #333333;
+}
+.text-time{
+  color: #888888;
+}

@@ -1,0 +1,68 @@
+<view class="page"> 
+  <view class="hear-box__ctn border-button" >
+    <view class="hear-box">
+      <view class="page_top-left">姓  名:</view>
+      <view class="hear-box-right">
+        <view class="page_top-right">2312312</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="page"> 
+  <view class="hear-box__ctn border-button" >
+    <view class="hear-box">
+      <view class="page_top-left">客户编号:</view>
+      <view class="hear-box-right">
+        <view class="page_top-right">38020005080</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="page"> 
+  <view class="hear-box__ctn border-button" >
+    <view class="hear-box">
+      <view class="page_top-left">证件类型:</view>
+      <view class="hear-box-right">
+        <view class="page_top-right">身份证</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="page"> 
+  <view class="hear-box__ctn border-button" >
+    <view class="hear-box">
+      <view class="page_top-left">证件号码:</view>
+      <view class="hear-box-right">
+        <view class="page_top-right">430681****1220</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="page"> 
+  <view class="hear-box__ctn border-button" >
+    <view class="hear-box">
+      <view class="page_top-left">固定电话:</view>
+      <view class="hear-box-right">
+        <view class="page_top-right">189113**767</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="page"> 
+  <view class="hear-box__ctn border-button" >
+    <view class="hear-box">
+      <view class="page_top-left">移动电话:</view>
+      <view class="hear-box-right">
+        <view class="page_top-right">1891****767</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="page-buttom"> 
+  <view class="border-button ">
+    <view class="page_top-left margin-left">通讯地址:</view>
+    <view class="">
+    <view class="page_top-right margin-right">湖南长沙芙蓉中路顺天国际财富中心</view> 
+  </view>
+  </view>
+</view>

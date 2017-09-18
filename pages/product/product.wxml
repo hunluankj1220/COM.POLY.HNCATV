@@ -1,0 +1,13 @@
+<import src="../homeb/product.wxml"/>
+<view class="">
+        <view class="weui-btn-area" class="phone_one" >
+            <picker  bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                <view class="phone_personal">
+                   智能卡：{{array[index]}}
+                    <image src="../../assets/images/down_to.png"class="personal_image"style="width:10px;height:10px;"></image>
+                </view>
+            </picker>
+        </view>
+    </view>
+    <view class="top-image"><image class="top-image" src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2462515303.jpg" /></view>
+    <template is="product" data="{{routes}}"/>

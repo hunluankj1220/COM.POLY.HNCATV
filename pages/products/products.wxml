@@ -1,0 +1,21 @@
+<view class="classname" wx:for="{{products}}" wx:key="">
+  <view class="weui-cells weui-cells_after-title" bindtap="detail" id="{{item.proid}}">
+    <view class="weui-cell" >
+      <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">
+        <block >
+          <image wx:if="{{item.src == ''}}" class="images" src="../../assets/images/error_img.png"></image> 
+          <image wx:else="{{item.src}}" class="images" src="{{item.src}}" background-size="cover"></image>
+         </block>
+      </view>
+      <view class="weui-cell__bd">
+        <view>{{item.title}}</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access line-height"></view>
+        <block >
+          <view wx:if="{{item.desc == ''}}" class="text-all-one"><text class="text_line">{{text}}</text></view>
+          <view wx:else="{{item.desc}}" class="text-all-one"><text class="text_line">{{item.desc}}</text></view>
+        </block>
+        <view class="text-all-three">{{item.money}}</view>
+      </view>
+    </view>
+  </view>
+</view>

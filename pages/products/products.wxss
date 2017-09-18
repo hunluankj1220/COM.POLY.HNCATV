@@ -1,0 +1,8 @@
+.line-height{
+  line-height: 60px;
+}
+.images{
+  width: 50px; 
+  height: 50px; 
+  display: block;
+}

@@ -1,0 +1,21 @@
+.image{
+  width: 80px;
+  height: 80px;
+  display:block; margin:0 auto;
+  text-align:center; padding-top:200px;
+}
+.page{
+  height: 80%;
+}
+.page-text{
+  text-align: center;
+  vertical-align:middle;
+}
+/* 作为展示用的样式 */
+
+.weui-footer{
+    margin-bottom: 50px;
+}
+.weui-footer_fixed-bottom{
+    margin-bottom: 0;
+}

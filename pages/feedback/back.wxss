@@ -1,0 +1,18 @@
+.cont-input{
+    width:600rpx;
+    height:30px;
+    display:flex;
+    background:#ffffff;
+    align-items:center;
+    margin:0 auto;
+    margin-top:35rpx;
+}
+.detail-input{
+    width:600rpx;
+    height:500rpx;
+    display:flex;
+    background:#ffffff;
+    align-items:top;
+    margin:0 auto;
+    margin-top:35rpx;
+}

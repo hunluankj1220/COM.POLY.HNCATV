@@ -1,0 +1,15 @@
+.page-zhu{
+  font-size: 12px;
+  margin: 8px;
+  align-items: center;
+  text-align: center;
+}
+.btn{
+  color: #ff5800;
+}
+.page-buttom-image{
+  margin-top: 8px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}

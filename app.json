@@ -1,0 +1,60 @@
+{
+  "pages":[
+    "pages/start/start",
+    "pages/home/home",
+    "pages/product/product",
+    "pages/service/service",
+    "pages/me/me",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/search/search",
+    "pages/balan/balan",
+    "pages/alreadyb/already",
+    "pages/tradrecord/trad",
+    "pages/bind/bind",
+    "pages/recharge/recharge",
+    "pages/chargepw/password",
+    "pages/userinfo/info",
+    "pages/message/msg",
+    "pages/feedback/back",
+    "pages/about/about",
+    "pages/products/products",
+    "pages/products/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"green",
+    "navigationBarBackgroundColor": "#87ceeb",
+    "backgroundColor":"#ffffff",
+    "enablePullDownRefresh":true
+  },
+ "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#479de6",
+    "borderStyle": "white",
+    "backgroundColor": "#d3d3d3",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "iconPath": "assets/images/ic_indicator_hncatv_home.png",
+      "selectedIconPath": "assets/images/ic_indicator_hncatv_home_selected.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/product/product",
+      "iconPath": "assets/images/ic_indicator_hncatv_commodity.png",
+      "selectedIconPath": "assets/images/ic_indicator_hncatv_commodity_selected.png",
+      "text": "商品"
+    }, {
+      "pagePath": "pages/service/service",
+      "iconPath": "assets/images/ic_indicator_hncatv_service.png",
+      "selectedIconPath": "assets/images/ic_indicator_hncatv_service_selected.png",
+      "text": "服务"
+    }, {
+      "pagePath": "pages/me/me",
+      "iconPath": "assets/images/ic_indicator_hncatv_me.png",
+      "selectedIconPath": "assets/images/ic_indicator_hncatv_me_selected.png",
+      "text": "我的"
+    }]
+  },
+  "debug": true
+}

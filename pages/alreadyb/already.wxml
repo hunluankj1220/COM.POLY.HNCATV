@@ -1,0 +1,13 @@
+<view class="ba_page">
+ <view class="page_pd" wx:for="{{alreadys}}" wx:key="">
+   <view class="hear-box__ctn" >
+    <view class="hear-box__title">{{item.name}}</view>
+      <view class="hear-box">
+        <view class="page_button-left">到期时间:{{item.time}}</view>
+          <view class="hear-box-right">
+            <view class="page_button-right">{{item.state}}</view>
+      </view>
+    </view>
+   </view>
+  </view>
+</view>

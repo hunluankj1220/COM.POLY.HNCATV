@@ -1,0 +1,26 @@
+<view class="page">
+<view class="page-pg-top"></view>
+  <view class="page-top phone_one" style="line-height:30px;">
+    <picker  bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+         智能卡：{{array[index]}}
+        <image src="../../assets/images/down_to.png"class="personal_image"style="width:10px;height:10px;"></image>    
+    </picker>
+  </view>
+  <view class="">
+    <view class="text-all page-text">选择充值金额:</view>
+  </view>
+  <view class="page-radio">
+    <radio-group class="radio-group" bindchange="radioChange">
+     <label class="radio" wx:for="{{items}}">
+       <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+     </label>
+   </radio-group>
+  </view> 
+   <view class="">
+    <view class="text-all page-text">充值金额:{{radiovalue}}</view>
+  </view>
+  <view class="weui-btn-area">
+   <button class="weui-btn btn" type="primary" bindtap="showTopTips">立刻充值</button>
+  </view>
+   <view class="text-all-two page-text"><text decode="{{true}}">{{hint}}</text></view>
+</view>

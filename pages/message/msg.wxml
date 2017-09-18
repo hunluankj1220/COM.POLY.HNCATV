@@ -1,0 +1,7 @@
+<view class="ba_page">
+   <view class="page_pd" wx:for="{{lists}}" wx:key="">
+    <view class="text-all border-button" >{{item.title}}</view>
+    <view class="hear-box__desc border-button text-time" style="padding-left:10px;">{{item.time}}</view>
+    <view class="hear-box__desc text-all">{{item.content}}</view>    
+  </view>
+</view>

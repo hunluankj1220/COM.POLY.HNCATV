@@ -1,0 +1,16 @@
+.text-all{
+  color:#000000;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.color-text{
+  color: #ff4500
+}
+.border-button{
+  border-bottom:1px  solid #696969;
+}
+.hear-box__desc{
+    margin-top: 2px;
+    font-size: 12px;
+    color: #333333;
+}
